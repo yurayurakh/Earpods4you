@@ -1,0 +1,31 @@
+.header {
+  // display: none;
+  padding: 25px 0;
+  min-height: 135px;
+  &__logo {
+    margin-top: 10px;
+  }
+  &__nav {
+    margin-top: 20px;
+  }
+  &__info-order {
+    &_title {
+      text-align: center;
+      p {
+        margin: 0;
+      }
+    }
+    &_btn {
+      margin-top: 5px;
+      text-align: center;
+      .btn-red {
+        text-shadow: 0 1px 0 #dc141c;
+        border: 1px solid #dc141c;
+        box-shadow: 0 0 0 0 rgba(237,27,36,0.6), inset 0 1px 0 #fff;
+        &:focus, &:active {
+          outline: none;
+        }
+      }
+    }
+  }
+}

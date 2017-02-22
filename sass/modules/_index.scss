@@ -1,0 +1,127 @@
+.logo {
+  display: block;
+  text-align: center;
+  img {
+    max-width: 260px;
+    max-height: 60px;
+    width: 100%;
+  }
+}
+.nav {
+  ul {
+    text-align: center;
+    li {
+      display: inline-block;
+      text-align: center;
+      font-size: 16pt;
+      padding-right: 15px;
+      &:last-child {
+        padding-right: 0;
+      }
+      a {
+        text-decoration: none;
+        color: $main_font_color;
+        &:hover {
+          color: $main_font_color;
+        }
+      }
+
+    }
+  }
+}
+.btn-red {
+  background: #dc141c;
+  box-shadow: 0 0 15px rgba(237,27,36,0.6);
+  border-radius: 25px;
+  border: 0;
+  color: #fff;
+  font-size: 14pt;
+  padding: 3px 20px;
+  &:focus, &:hover {
+    outline: none;
+    background: #dc141c;
+  }
+}
+
+// Modal
+.modal-ear {
+  .modal-dialog {
+    width: 350px;
+    .modal-content {
+      border-radius: 0;
+      border: 0;
+      .modal-header {
+        border-bottom: 0;
+        .close {
+          font-weight: normal;
+          font-size: 22pt;
+          opacity: 1;
+          &:active, &:focus {
+            outline: none;
+          }
+        }
+      }
+      .modal-body {
+        text-align: center;
+        padding: 0 40px 20px;
+        .form-list-title {
+          margin-bottom: 25px;
+          p {
+            font-family: $font_BebasBold;
+            font-size: 24pt;
+            margin-bottom: 0;
+          }
+          span {
+            font-size: 12pt;
+          }
+        }
+        .form-list-forms {
+          .form-group {
+            input {
+              border-top: 0;
+              border-left: 0;
+              border-right: 0;
+              border-radius: 0;
+            }
+            label {
+              margin-top: 8px;
+            }
+            #inputNumber {
+              padding-left: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//Snow
+#canvas {
+  width: 100%;
+  transform: rotate(31deg);
+  margin-top: -70px;
+}
+
+// pulse button
+.pulse-button {
+  // color: white;
+  text-shadow: 0 1px 0 #1f4c76;
+  border: 1px solid #3480c7;
+  box-shadow: 0 0 0 0 rgba(90, 153, 220, 0.7), inset 0 1px 0 #fff;
+  v-align: middle;
+  cursor: pointer;
+  -webkit-animation: pulse 1s infinite cubic-bezier(0.6, 0, 0, 1);
+}
+.pulse-button-white {
+  box-shadow: 0 0 0 0 rgba(255, 255, 220, 0.7), inset 0 1px 0 #fff;
+  v-align: middle;
+  cursor: pointer;
+  -webkit-animation: pulse 1s infinite cubic-bezier(0.6, 0, 0, 1);
+}
+
+@-webkit-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 15px rgba(90, 153, 220, 0), inset 0 1px 0 #abcbe9;
+  }
+}

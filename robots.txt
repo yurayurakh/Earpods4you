@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /sas/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yandex
+Allow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /sas/
+Host: earpods4you.com.ua

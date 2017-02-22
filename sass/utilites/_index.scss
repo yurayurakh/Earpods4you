@@ -1,0 +1,28 @@
+$main_font_size: 14px;
+$main_font_color: #201e24;
+$main_font_family: AvantgardeGothicC;
+$font_AvantBold: AvantgardecttBold;
+$font_BebasBold: BebasBold;
+$bg_color: #ffffff;
+
+
+@font-face {
+  font-family: AvantgardeGothicC;
+  src: url("../../font/AvantgardeGothicC.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: AvantgardecttBold;
+  src: url("../../font/AvantgardecttBold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: BebasBold;
+  src: url("../../font/BebasBold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}

@@ -1,0 +1,134 @@
+// Adaptive
+@media (min-width:992px) and (max-width:1199px) {
+
+}
+@media (min-width:768px) and (max-width:991px) {
+  .screen1 {
+    padding-top: 50px;
+    &__order-btn {
+      margin-top: 130px;
+    }
+  }
+  .screen3 {
+    display: none;
+  }
+  .screen4 {
+    padding-top: 50px;
+  }
+  .footer {
+    .footer__social, .footer__cop {
+      margin-left: 40px;
+    }
+  }
+} 
+@media (max-width:767px) {
+  .modal-ear {
+    .modal-dialog {
+      width: auto;
+      .modal-content {
+        .modal-header {
+          padding-bottom: 0;
+        }
+        .modal-body {
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+  .header {
+    &__info-order {
+      margin-top: 20px;
+      label {
+        font-size: 13px;
+      }
+    }
+  }
+  .screen1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: url("../../img/scr1-mob_bg.jpg");
+    &__text {
+      margin-bottom: 20px;
+      &_title {
+        h2 {
+          font-size: 42pt;
+        }
+      }
+    }
+    &__order-btn {
+      margin-top: 0;
+      text-align: center;
+    }
+    &__good {
+      margin-top: 80px;
+    }
+  }
+  .screen2 {
+    padding-top: 50px;
+    // display: none;
+  }
+  .screen3 {
+    display: none;
+  }
+  .screen4 {
+    padding-top: 50px;
+    &__what-title {
+      h3 {
+        font-size: 42pt;
+      }
+    }
+    &__arrow {
+      display: none;
+    }
+    &__order-info {
+      margin-bottom: 30px;
+    }
+    &__btn {
+      text-align: center;
+    }
+  }
+  .screen5 {
+    padding-top: 40px;
+    &__title {
+      h3 {
+        font-size: 42pt;
+      }
+    }
+    &__img-slide {
+      text-align: center;
+    }
+    &__slider {
+      margin-top: 10px;
+    }
+
+  }
+  .screen6 {
+    margin-top: 30px;
+    background: rgb(201,67,66);
+    padding-top: 30px;
+    &__title {
+      h3 {
+        font-size: 22pt;
+      }
+    }
+    &__yes, &__no {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  .footer {
+    height: 320px;
+    &__logo {
+      margin-bottom: 20px;
+    }
+    &__social {
+      margin-bottom: 20px;
+    }
+    &__cop {
+      margin-bottom: 20px;
+    }
+    &__info-order {
+      margin-bottom: 20px;
+    }
+  }
+}
